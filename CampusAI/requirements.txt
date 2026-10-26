@@ -1,0 +1,29 @@
+# CampusAI — RAG University Rules & Syllabus Assistant
+# Python 3.10+ recommended. Pin versions for reproducible installs.
+
+# --- Web UI ---
+streamlit>=1.32.0,<2.0.0
+
+# --- LangChain core & integrations ---
+langchain>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-chroma>=0.1.4,<0.2.0
+langchain-huggingface>=0.1.0,<0.2.0
+langchain-groq>=0.2.0,<0.3.0
+langchain-text-splitters>=0.3.0,<0.4.0
+
+# --- Vector database ---
+chromadb>=0.5.0,<0.6.0
+
+# --- PDF parsing ---
+pypdf>=4.0.0,<6.0.0
+
+# --- Local embeddings (HuggingFace / sentence-transformers) ---
+sentence-transformers>=2.7.0,<4.0.0
+
+# --- Optional: OpenAI (set OPENAI_API_KEY) ---
+langchain-openai>=0.2.0,<0.4.0
+
+# --- Utilities ---
+python-dotenv>=1.0.0,<2.0.0
+tiktoken>=0.7.0,<1.0.0
